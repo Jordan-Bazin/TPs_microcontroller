@@ -9,11 +9,11 @@
 ### Memory Usage ###
  Intel Hex-file ranges:
   0h - 9h		(dist/default/debug\TPb_timer0.X.debug.hex)
-  FB0h - FFFh		(dist/default/debug\TPb_timer0.X.debug.hex)
+  F80h - FFFh		(dist/default/debug\TPb_timer0.X.debug.hex)
   10000h - 10007h		(dist/default/debug\TPb_timer0.X.debug.hex)
   1000Eh - 10011h		(dist/default/debug\TPb_timer0.X.debug.hex)
  Unused ranges:
-  Ah - FAFh
+  Ah - F7Fh
   1000h - FFFFh
   10008h - 1000Dh
 
@@ -26,6 +26,9 @@
 ----------------------------------------------------------
 00000000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 ----------------------------------------------------------
+00000F80 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000F90 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000FA0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000FB0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000FC0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000FD0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1

@@ -11,17 +11,17 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$dist/default/production\TPb_timer0.X.production.o
-cinit CODE 0 7FD 7FD 3 2 1
-idloc IDLOC 5 8000 8000 4 2 1
-text1 CODE 0 7D2 7D2 9 2 1
-maintext CODE 0 7DB 7DB 22 2 1
-cstackCOMMON COMMON 1 70 70 2 1 1
-config CONFIG 4 8007 8007 2 2 1
-$C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
+$C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
 idloc IDLOC 5 8000 8000 4 2 1
 reset_vec CODE 0 0 0 2 2 1
 end_init CODE 0 2 2 2 2 1
+config CONFIG 4 8007 8007 2 2 1
+$dist/default/production\TPb_timer0.X.production.o
+cinit CODE 0 7FD 7FD 3 2 1
+idloc IDLOC 5 8000 8000 4 2 1
+text1 CODE 0 7B5 7B5 1F 2 1
+maintext CODE 0 7D4 7D4 29 2 1
+cstackCOMMON COMMON 1 70 70 4 1 1
 config CONFIG 4 8007 8007 2 2 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -65,9 +65,9 @@ BANK6 320-36F 1
 BANK7 3A0-3EF 1
 BANK8 420-46F 1
 BANK9 4A0-4EF 1
-CONST 4-7D1 2
+CONST 4-7B4 2
 CONST 800-3FFF 2
-ENTRY 4-7D1 2
+ENTRY 4-7B4 2
 ENTRY 800-3FFF 2
 SFR10 500-51F 1
 SFR11 580-59F 1
@@ -91,7 +91,7 @@ SFR28 E00-E6F 1
 SFR29 E80-EEF 1
 SFR30 F00-F6F 1
 SFR31 F80-FEF 1
-CODE 4-7D1 2
+CODE 4-7B4 2
 CODE 800-3FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -120,10 +120,10 @@ BANK23 BA0-BEF 1
 BANK24 C20-C6F 1
 BANK25 CA0-CBF 1
 BIGRAM 2000-27EF 1
-COMMON 72-7D 1
-STRCODE 4-7D1 2
+COMMON 74-7D 1
+STRCODE 4-7B4 2
 STRCODE 800-3FFF 2
-STRING 4-7D1 2
+STRING 4-7B4 2
 STRING 800-3FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -139,27 +139,34 @@ STRING 800-3FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\TPb_timer0.X.production.o
-7FD cinit CODE >756:C:\Users\jordan\AppData\Local\Temp\xcAs6es.s
-7FD cinit CODE >759:C:\Users\jordan\AppData\Local\Temp\xcAs6es.s
-7FD cinit CODE >765:C:\Users\jordan\AppData\Local\Temp\xcAs6es.s
-7FD cinit CODE >767:C:\Users\jordan\AppData\Local\Temp\xcAs6es.s
-7FE cinit CODE >768:C:\Users\jordan\AppData\Local\Temp\xcAs6es.s
-7D2 text1 CODE >5:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7D2 text1 CODE >6:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7D2 text1 CODE >8:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7D6 text1 CODE >9:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7DA text1 CODE >10:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7DB maintext CODE >12:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7DB maintext CODE >14:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7E0 maintext CODE >15:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7E4 maintext CODE >16:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7E8 maintext CODE >17:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7EC maintext CODE >21:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7EE maintext CODE >22:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7F0 maintext CODE >23:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7F3 maintext CODE >24:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7F6 maintext CODE >25:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-7F7 maintext CODE >26:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7FD cinit CODE >758:C:\Users\jordan\AppData\Local\Temp\xcAs1adc.s
+7FD cinit CODE >761:C:\Users\jordan\AppData\Local\Temp\xcAs1adc.s
+7FD cinit CODE >767:C:\Users\jordan\AppData\Local\Temp\xcAs1adc.s
+7FD cinit CODE >769:C:\Users\jordan\AppData\Local\Temp\xcAs1adc.s
+7FE cinit CODE >770:C:\Users\jordan\AppData\Local\Temp\xcAs1adc.s
+7B5 text1 CODE >5:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7B5 text1 CODE >6:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7B7 text1 CODE >7:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7B7 text1 CODE >9:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7BB text1 CODE >10:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7BF text1 CODE >11:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7C2 text1 CODE >12:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7CB text1 CODE >12:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7CF text1 CODE >12:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7D3 text1 CODE >14:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7D4 maintext CODE >16:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7D4 maintext CODE >18:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7D9 maintext CODE >19:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7DD maintext CODE >20:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7E1 maintext CODE >21:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7E5 maintext CODE >22:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7E9 maintext CODE >23:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7EC maintext CODE >27:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7EE maintext CODE >28:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7F0 maintext CODE >29:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7F3 maintext CODE >30:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7F6 maintext CODE >31:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+7F7 maintext CODE >32:C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -173,9 +180,8 @@ $dist/default/production\TPb_timer0.X.production.o
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 ___latbits 3 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
-__end_of_delai_approx FB6 0 CODE 0 text1 dist/default/production\TPb_timer0.X.production.o
 __Hspace_0 800 0 ABS 0 - -
-__Hspace_1 72 0 ABS 0 - -
+__Hspace_1 74 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 10010 0 ABS 0 - -
@@ -183,27 +189,28 @@ __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
 _LATB 10D 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
 _LATD 10F 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-_main FB6 0 CODE 0 maintext dist/default/production\TPb_timer0.X.production.o
+_TMR0 15 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+_main FA8 0 CODE 0 maintext dist/default/production\TPb_timer0.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
-start 4 0 CODE 0 init C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
+start 4 0 CODE 0 init C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
 wtemp0 7E 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
 __Lmaintext 0 0 ABS 0 maintext -
 _INTCON B 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
 _OPTION_REG 95 0 ABS 0 - dist/default/production\TPb_timer0.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-___stacklo 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
+___stackhi 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+___stacklo 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
 start_initialization FFA 0 CODE 0 cinit dist/default/production\TPb_timer0.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
+___int_sp 0 0 STACK 2 stack C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -332,9 +339,10 @@ __Lsfr9 0 0 ABS 0 sfr9 -
 __Ltext 0 0 ABS 0 text -
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 __S0 800 0 ABS 0 - -
-__S1 72 0 ABS 0 - -
+__S1 74 0 ABS 0 - -
 __Lintentry 4 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+delai_1s@i 71 0 COMMON 1 cstackCOMMON dist/default/production\TPb_timer0.X.production.o
 __Lbank10 0 0 ABS 0 bank10 -
 __Lbank11 0 0 ABS 0 bank11 -
 __Lbank12 0 0 ABS 0 bank12 -
@@ -357,7 +365,7 @@ __Lbank28 0 0 BANK28 1 bank28 -
 __Lbank29 0 0 BANK29 1 bank29 -
 __Lbank30 0 0 BANK30 1 bank30 -
 __Lbank31 0 0 BANK31 1 bank31 -
-__pmaintext FB6 0 CODE 0 maintext dist/default/production\TPb_timer0.X.production.o
+__pmaintext FA8 0 CODE 0 maintext dist/default/production\TPb_timer0.X.production.o
 __Lbigram 0 0 ABS 0 bigram -
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
@@ -372,16 +380,17 @@ end_of_initialization FFA 0 CODE 0 cinit dist/default/production\TPb_timer0.X.pr
 __Hintentry 4 0 CODE 0 intentry -
 __Lstrings 0 0 ABS 0 strings -
 __Hreset_vec 4 0 CODE 0 reset_vec -
-__ptext1 FA4 0 CODE 0 text1 dist/default/production\TPb_timer0.X.production.o
+__ptext1 F6A 0 CODE 0 text1 dist/default/production\TPb_timer0.X.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 __Lreset_vec 0 0 CODE 0 reset_vec -
-___heap_hi 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
-___heap_lo 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs6es.o
+___heap_hi 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
+___heap_lo 0 0 ABS 0 - C:\Users\jordan\AppData\Local\Temp\xcAs1adc.o
 __end_of__initialization FFA 0 CODE 0 cinit dist/default/production\TPb_timer0.X.production.o
-_delai_approx FA4 0 CODE 0 text1 dist/default/production\TPb_timer0.X.production.o
+_delai_1s F6A 0 CODE 0 text1 dist/default/production\TPb_timer0.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
 __Lclrtext 0 0 ABS 0 clrtext -
+__end_of_delai_1s FA8 0 CODE 0 text1 dist/default/production\TPb_timer0.X.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\TPb_timer0.X.production.o
 __Hend_init 8 0 CODE 0 end_init -
 __end_of_main FFA 0 CODE 0 maintext dist/default/production\TPb_timer0.X.production.o
@@ -416,9 +425,9 @@ __initialization FFA 0 CODE 0 cinit dist/default/production\TPb_timer0.X.product
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cinit 0 7FD FFA 3 2
-text1 0 7D2 FA4 9 2
-maintext 0 7DB FB6 22 2
-cstackCOMMON 1 70 70 2 1
+text1 0 7B5 F6A 1F 2
+maintext 0 7D4 FA8 29 2
+cstackCOMMON 1 70 70 4 1
 reset_vec 0 0 0 4 2
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section

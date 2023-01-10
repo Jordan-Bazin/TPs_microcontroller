@@ -9670,24 +9670,32 @@ extern __bank0 __bit __timeout;
 
 
 
-void delai_approx(void) {
-    char x = INTCON & 0x04;
+void delai_1s(void) {
+    for(int i = 0; i < 1000;i++) {
 
-    while(x != 1) {}
+
+
+        INTCON &= ~0x04;
+        TMR0 = 6;
+    }
+
 }
 
 void main(void) {
 
     TRISD &= 0xF0;
     TRISB &= 0xF0;
+    OPTION_REG |= 0x02;
+    OPTION_REG &= ~0x08;
+    TMR0 = 6;
 
     while(1){
 
         LATB = 0x00;
         LATD = 0xFF;
-        delai_approx();
+        delai_1s();
         LATB = 0xFF;
         LATD = 0x00;
-        delai_approx();
+        delai_1s();
     }
 }

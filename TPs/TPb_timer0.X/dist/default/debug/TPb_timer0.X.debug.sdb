@@ -8,28 +8,32 @@
 "4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
 "5 C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
-[v _delai_approx delai_approx `(v  1 e 1 0 ]
-"11
+[v _delai_1s delai_1s `(v  1 e 1 0 ]
+"16
 [v _main main `(v  1 e 1 0 ]
 "352 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1719.h
 [v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"891
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
 "1273
 [v _TRISB TRISB `VEuc  1 e 1 @141 ]
 "1397
 [v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"1672
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
 "2353
 [v _LATB LATB `VEuc  1 e 1 @269 ]
 "2477
 [v _LATD LATD `VEuc  1 e 1 @271 ]
-"11 C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
+"16 C:\AP4_Circuits_Programmables\Microcontroleurs\TPs\TPb_timer0.X\template.c
 [v _main main `(v  1 e 1 0 ]
 {
-"25
+"33
 } 0
 "5
-[v _delai_approx delai_approx `(v  1 e 1 0 ]
+[v _delai_1s delai_1s `(v  1 e 1 0 ]
 {
 "6
-[v delai_approx@x x `uc  1 a 1 1 ]
-"9
+[v delai_1s@i i `i  1 a 2 1 ]
+"14
 } 0
